@@ -19,8 +19,10 @@ class Plinko {
         translate(pos.x, pos.y);
         rotate(angle);
         imageMode(CENTER);
-        noStroke();
-        fill("white");
+        
+        strokeWeight(2)
+        stroke("blue");
+        fill("black");
         ellipseMode(RADIUS);
         ellipse(0,0,this.r,this.r);
         pop();
